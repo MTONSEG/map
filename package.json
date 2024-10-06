@@ -3,14 +3,13 @@
 		"client": "cd client && npm run dev",
 		"server": "cd server && node index.js",
 		"start": "concurrently \"npm run server\" \"npm run client\"",
-		"full-install": "npm install --prefix server && npm install --prefix client"
+		"full-install": "npm install && npm install --prefix server && npm install --prefix client"
 	},
 	"workspaces": [
 		"server/",
 		"client/"
 	],
 	"dependencies": {
-		"axios": "^1.7.7",
 		"concurrently": "^9.0.1"
 	}
 }
