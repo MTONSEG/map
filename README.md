@@ -34,6 +34,10 @@ Alternatively, you can run the client and server separately:
 
 By default, the server will run on `http://localhost:3000`.
 
+## Auth key
+
+- `unique-key`
+
 ## Project Structure
 
 - `server/`: Contains the server-side code (Express and Socket.IO).
