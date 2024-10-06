@@ -1,0 +1,9 @@
+{
+	"sign_out": "Sign Out",
+	"sign_in": "Sign In",
+	"you_are_logged_in": "You are logged in",
+	"enter_authorization_key": "Enter authorization key",
+	"the_key_is_not_defined": "The key is not defined",
+	"key":"Key",
+	"back_to_map": "Back to map"
+}
