@@ -23,7 +23,6 @@ const AuthProvider: FC<PropsType> = observer(({ children }) => {
 
 		const tokens: IToken = JSON.parse(jsonTokens)
 
-		// Проверяю токен на валидность
 		authStore
 			.verifyAccess(tokens.access)
 			.catch(() =>
