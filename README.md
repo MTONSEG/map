@@ -34,6 +34,16 @@ Alternatively, you can run the client and server separately:
 
 By default, the server will run on `http://localhost:3000`.
 
+## Build client
+
+```bash
+cd client
+```
+
+```bash
+npm run start
+```
+
 ## Auth key
 
 - `unique-key`
