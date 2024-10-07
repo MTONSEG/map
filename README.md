@@ -41,7 +41,7 @@ cd client
 ```
 
 ```bash
-npm run start
+npm run build
 ```
 
 ## Auth key
